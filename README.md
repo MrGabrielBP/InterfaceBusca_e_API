@@ -64,6 +64,15 @@ O servidor Python estará em execução em segundo plano e lidará com as requis
 
 ### Interface WEB
 
+![Interface WEB](https://github.com/MrGabrielBP/InterfaceBusca_e_API/blob/main/interface%20web.png)
+
+### Resposta do Servidor
+
+![Código de respota do servidor](https://github.com/MrGabrielBP/InterfaceBusca_e_API/blob/main/servidor.png)
+
+### Network do DevTools
+
+![Aba Network do DevTools](https://github.com/MrGabrielBP/InterfaceBusca_e_API/blob/main/requisi%C3%A7%C3%A3o.png)
 
 ## Licença
 
