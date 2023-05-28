@@ -45,10 +45,12 @@ pip install flask flask-cors
 python server.py
 ```
 
+O servidor é por padrão executado na porta 5000.
+
 ### Interface web Vue.js:
 
 1. Certifique-se de ter o Node.js instalado em sua máquina (versão 14 ou superior).
-2. Navegue até o diretório do projeto `frontend`.
+2. Navegue até o diretório do projeto `frontend\interface-web`.
 3. Instale as dependências: `npm install`
 4. Inicie o servidor de desenvolvimento: `npm run serve`
 
@@ -59,6 +61,9 @@ Após a instalação, você pode acessar a interface web em seu navegador no end
 O servidor Python estará em execução em segundo plano e lidará com as requisições de busca realizadas pela interface web. Certifique-se de que o servidor esteja em execução antes de usar a interface web.
 
 ## Screenshots
+
+### Interface WEB
+
 
 ## Licença
 
