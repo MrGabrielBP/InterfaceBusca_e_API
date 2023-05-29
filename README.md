@@ -85,6 +85,29 @@ Após a instalação, você pode acessar a interface web em seu navegador no end
 
 O servidor Python estará em execução em segundo plano e lidará com as requisições de busca realizadas pela interface web. Certifique-se de que o servidor esteja em execução antes de usar a interface web.
 
+## Coleção do Postman
+
+Uma coleção do Postman foi incluída neste projeto. A coleção contém uma solicitação pré-configurada para a rota de busca, permitindo que você teste rapidamente a funcionalidade do servidor Flask.
+
+### Importando a coleção no Postman
+
+Para importar a coleção no Postman, siga estas etapas:
+
+1. Abra o aplicativo Postman.
+2. Clique no botão "Importar" na barra de navegação superior.
+3. Procure pelo arquivo `API Busca.postman_collection.json` que está no repositório.
+5. Clique em Abrir.
+
+### Utilizando a coleção
+
+Após importar a coleção no Postman, você verá uma solicitação chamada "Busca" na coleção. Essa solicitação está pré-configurada para fazer uma busca com o termo "caixa". Você pode modificar o valor do parâmetro "termo_busca" para realizar buscas diferentes.
+
+Certifique-se de que o servidor Flask esteja sendo executado localmente na porta padrão (5000) antes de enviar a solicitação.
+
+### Observação
+
+A coleção do Postman é uma ferramenta útil para testar e validar sua API. Ela permite enviar solicitações HTTP e receber as respostas correspondentes. Você pode usar a coleção para verificar se a rota de busca está funcionando corretamente e testar diferentes termos de busca.
+
 ## Screenshots
 
 ### Interface WEB
